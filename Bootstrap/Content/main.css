@@ -1,0 +1,52 @@
+﻿body {
+    font-family: Rajdhani;
+    color: #ffffff;
+    background-color:#872020;
+    background-repeat:no-repeat;
+    }
+.brand .img-responsive {
+      margin:0 auto;
+      }
+
+.navbar{
+    background-color:#000000;
+    padding:1%;
+    color:#d8c319;
+    text-align:center;
+    height:2%;
+    border-radius:500PX;
+}
+.para
+{
+    font-family:Rajdhani;
+    font-size:16px;
+}
+.actor-list img {
+    /*width: 2%;
+    height: 2%;*/
+    max-width: 2%;
+    max-height: 2%;
+   margin-left: auto;
+    margin-right: auto;
+    border-radius:1px; 
+   }
+
+.links {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /*border: 1px thin #b00808;
+    height: 60%;
+    width: 80%;*/
+    /*padding-bottom:10px;*/
+}
+    .image_section img
+        {
+    display: block;
+}
+
+@media (max-width:640px){
+    .image_section img:first-child{
+        display:none;
+    }
+
+}
